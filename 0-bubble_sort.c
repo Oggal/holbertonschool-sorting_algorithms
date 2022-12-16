@@ -12,7 +12,7 @@ void bubble_sort(int *array, size_t size)
 	 * Go until index size-2(zero index, comparing to index + 1)
 	 * if index is > index + 1 :  Swap;
 	 */
-	int index, counterIndex;
+	size_t index, counterIndex;
 
 	for (counterIndex = 1; counterIndex != 0;)
 	{/* For Each Row*/
