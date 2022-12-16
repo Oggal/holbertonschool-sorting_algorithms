@@ -7,15 +7,16 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	/*Start at index 0,
+	/*
+	 *Start at index 0,
 	 * Go until index size-2(zero index, comparing to index + 1)
 	 * if index is > index + 1 :  Swap;
 	 */
 	int index, counterIndex;
 
-	for(counterIndex = 1; counterIndex != 0;)
+	for (counterIndex = 1; counterIndex != 0;)
 	{/* For Each Row*/
-		for(index = 0, counterIndex = 0; index < size - 1; index++)
+		for (index = 0, counterIndex = 0; index < size - 1; index++)
 		{
 			if (array[index] > array[index + 1])
 			{
