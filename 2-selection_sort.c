@@ -30,9 +30,8 @@ void selection_sort(int *array, size_t size)
 	{
 		for (index = min = counterIndex; index < (int)size; index++)
 		{
-		        if (array[min] > array[index]){
+			if (array[min] > array[index])
 				min = index;
-			}
 		}
 		swap_array(array, size, counterIndex, min);
 	}
