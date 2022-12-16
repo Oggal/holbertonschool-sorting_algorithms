@@ -33,6 +33,7 @@ void selection_sort(int *array, size_t size)
 			if (array[min] > array[index])
 				min = index;
 		}
-		swap_array(array, size, counterIndex, min);
+		if (counterIndex != min)
+			swap_array(array, size, counterIndex, min);
 	}
 }
