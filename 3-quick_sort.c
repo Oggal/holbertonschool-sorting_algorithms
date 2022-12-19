@@ -38,7 +38,6 @@ void quick_sort_r(int *array, size_t size, int *a, size_t f)
 {
 	int l_index, pivot_value, i;
 
-	printf("Size: %li\n", size);
 	if (size <= 1)
 		return;
 	if (size == 2)
