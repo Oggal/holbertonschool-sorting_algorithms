@@ -18,8 +18,6 @@ void swap_array(int *array, size_t s, int a, int b)
 	print_array(array, s);
 }
 
-void quick_sort_r(int *, size_t, int *, size_t);
-
 /**
  * quick_sort - Sort array via Quick Sort
  * @array: pointer to head of array
