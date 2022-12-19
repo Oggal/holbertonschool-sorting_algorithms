@@ -18,7 +18,7 @@ void swap_array(int *array, size_t s, int a, int b)
 	print_array(array, s);
 }
 
-void quick_sort_r(int *, size_t, const int *, const size_t);
+void quick_sort_r(int *, size_t, int *, size_t);
 
 /**
  * quick_sort - Sort array via Quick Sort
@@ -36,7 +36,7 @@ void quick_sort(int *array, size_t size)
  * @a: head of full array
  * @f: size of full array
  */
-void quick_sort_r(int *array, size_t size, const int *a, const size_t f)
+void quick_sort_r(int *array, size_t size, int *a, size_t f)
 {
 	int l_index, pivot_value, i;
 
